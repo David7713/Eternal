@@ -40,7 +40,8 @@ const [loading,setLoading] = useState(false)
     <HashLoader
 
     className='spinner-center'
-    color="#45f248"
+    // color="#45f248"
+    color="#72BF44"
     cssOverride={{}}
     size={80}
     speedMultiplier={1}

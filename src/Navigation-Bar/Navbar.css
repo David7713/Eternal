@@ -1,0 +1,120 @@
+.navigation-bar{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+
+    align-items: center;
+}
+
+
+.navigation-logo{
+    width: 200px;
+    height:120px;
+    text-align: center;
+    background-image: url("C:/Users/HDcomputers/Desktop/Eternal/eternal/src/Images/eternal-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navigation-pages{
+    
+  
+  font-size: 16px;;
+  font-weight: BOLDER;
+
+   
+}
+.navigation-home{
+    margin-left:20px;
+}
+
+.navigation-home:hover{
+    transition: all 0.9 ease ;
+    color:#72BF44;
+}
+.navigation-books{
+    margin-left:20px;
+}
+.navigation-books:hover{
+    transition: all 0.9 ease ;
+    color:#72BF44;
+}
+.navigation-about{
+    margin-left:20px;
+}
+.navigation-about:hover{
+    transition: all 0.9 ease ;
+    color:#72BF44;
+}
+.navigation-contact{
+    margin-left:20px;
+}
+.navigation-contact:hover{
+    transition: all 0.9 ease ;
+    color:#72BF44;
+}
+
+
+.navigation-user{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.navigation-auth{
+    margin-right:20px;
+}
+.navigation-auth:hover{
+    transition: all 0.9 ease ;
+    color:#72BF44;
+    ;
+}
+
+
+.navigation-shop:hover{
+    transition: all 0.9 ease ;
+    color:#72BF44;
+}
+
+a{
+    text-decoration: none;
+    color:#252525;;
+}
+
+
+@media only screen and (max-width: 640px) {
+    .navigation-bar{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+   }
+
+
+   @media only screen and (max-width: 640px) {
+    .navigation-pages{
+        display: none;
+    }
+   }
+
+   @media only screen and (max-width: 640px) {
+    .navigation-logo{
+        width: 100px;
+        height:70px;
+        /* border: 1px solid black; */
+        margin-left: 30px;;
+    }
+   }
+  
+   @media only screen and (max-width: 640px) {
+    .navigation-user{
+        margin-right: 30px;;
+        font-size: 16px;;
+    }
+   }
+  
