@@ -1,23 +1,59 @@
-import logo from './logo.svg';
+//HOOKS Imports//
+
+import { useState,useEffect,useContext,useReducer } from 'react';
+import React from 'react';
+import HashLoader from "react-spinners/HashLoader";
+
+
+
+//JS Imports//
+
+import Navbar from './Navigation-Bar/Navbar';
+
+
+
+//CSS Imports//
 import './App.css';
+import './Navigation-Bar/Navbar.css'
+import './Spinner/Spinner.css'
+
+
 
 function App() {
+
+
+const [loading,setLoading] = useState(false)
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(()=>{
+    setLoading(false)
+    },3000)
+  },[])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {/* Spinner */}
+      {
+    loading?
+    <div className='spinner'>
+    <HashLoader
+
+    className='spinner-center'
+    color="#45f248"
+    cssOverride={{}}
+    size={80}
+    speedMultiplier={1}
+  />
+  </div>
+    :
+        <div className='main-page'> 
+
+          <Navbar></Navbar>
+</div>
+
+      }
+
     </div>
   );
 }
