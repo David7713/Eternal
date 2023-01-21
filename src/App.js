@@ -8,15 +8,15 @@ import HashLoader from "react-spinners/HashLoader";
 
 //JS Imports//
 
+import Home from './Home/Home';
 import Navbar from './Navigation-Bar/Navbar';
-
 
 
 //CSS Imports//
 import './App.css';
 import './Navigation-Bar/Navbar.css'
 import './Spinner/Spinner.css'
-
+import './Home/Home.css'
 
 
 function App() {
@@ -50,7 +50,10 @@ const [loading,setLoading] = useState(false)
     :
         <div className='main-page'> 
 
-          <Navbar></Navbar>
+         <Navbar></Navbar>
+         <br></br><br></br>
+          <Home></Home>
+      
 </div>
 
       }
