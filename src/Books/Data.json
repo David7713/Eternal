@@ -1,0 +1,134 @@
+[
+   
+    {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MEtatgzx5rWei6CIFzkldLdW5r9ASsC6OVQIvHPeYPdzB-vCjf48fb-DqmHrVqY7X28&usqp=CAU",
+        "title": "1984",
+        "author":"George Orwell",
+        "price":" 450$ "
+    },
+    {
+        "id": 2,
+        "image":"https://pictures.abebooks.com/isbn/9780895268815-us-300.jpg",
+        "title": "Divine Comedy",
+        "author":"Dante Aligeri",
+        "price": "335$"
+    },
+    {
+        "id": 3,
+        "image": "https://m.media-amazon.com/images/I/51yLT2gSOOL._AC_SY780_.jpg",
+        "title": "Animal Farm",
+        "author":"George Orwell",
+        "price": "200$"
+    },
+    {
+        "id": 4,
+        "image": "  https://m.media-amazon.com/images/I/31yaYus+ROL._AC_SY1000_.jpg",
+        "title": "Financist",
+        "author":"Theodor Dreiser",
+        "price": "200$"
+    }
+
+    ,
+    {
+        "id": 5,
+        "image": "    https://m.media-amazon.com/images/I/41DMaaAo13L._AC_SY780_.jpg",
+        "title": "Art of War",
+        "author":"Sun Tzu",
+        "price": "200$"
+    }
+
+    ,
+    {
+        "id": 6,
+        "image": " https://s2982.pcdn.co/wp-content/uploads/2017/09/415yg4f3GIL.jpg.optimal.jpg",
+        "title": "Fahrenheit 451",
+        "author":"Ray Bradbury",
+        "price": "200$"
+    }
+    ,
+    {
+        "id": 7,
+        "image": " data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExIVFRUXFxgXFxcXGBcXGBgYGBcXGhgXGBcYHSggGB0lHRgXITEiJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0dHx0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS01LS0tLS0tLf/AABEIAQUAwQMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAPhAAAgIBAgQCBwQJAgcBAAAAAAECEQMSIQQxQWFRcQUGEyKBkaFCYrHwFBUjMlJygsHRQ/E0RGRzdLKzJP/EABkBAQEBAQEBAAAAAAAAAAAAAAEAAgMFBP/EACcRAQEBAQABAgUEAwEAAAAAAAABEQIhEjEyQVFxsWGBwfADE9GR/9oADAMBAAIRAxEAPwD5+DOiMjDHE1R3eS3hko01dTGMb5msYkVbALSNCBYtQNCaLEH2JbGkSxUPYWorSS0WIOQah0DRYZTTJcgihaQxbVSmJyBICxahSYMHEVFh3QSW0SkQKiYxKGmDQ+X0Aqu34DJMYx6GyiZY3RqpCxWkBrzFGWwRZJpFDoUWDYsjSNwBSDWKTJE0imyIsCtIGhk2aRSW4mVJkNhTCjRTiZx5mjZQ33JA0S7CyRkuAIaZIKItIMFyBJlFEpF6XzHQFFgaV3/PyAD5c6NIxsxTNsZMVekvGhRTOrN6OyQipyg4xfKTap+Xj8C2LzjJA0KjfNwmSEVOUWoy5PapeT6/A1uDNYUxNHTw3A5MibxwlJLnSuvPwOeWza8Oe9/gXq+Sy5qKG3RpgwynJRgnKT5Jc35eJfEcLOEtM4uMuqfNea6FvyOXNZQYM24Pg55G1ji5NK6VWl414ETTTrry23/DYdWIa2M3A7/1fl3/AGcm1u485Jd4818jkaYbL7HLPdi4lJm8ODySSag2ny7/AMt/vfAyy45RemUXFrmmmmvNMJWrPBaSHFo74ei88oqccbcH9pVXld/QX6m4hptYpOt3VOl8GHq5+qnHX0cND+RCs6f1fl5+zntz91tru1VpDokZITYImViF2Jg7JmSAyPmAFEUawRlGZrBljGtoo9706v8A83B/yZPxifP6j3/T/wDw3Bf9uf4wMdfFz9/4rpx8HX2/mPBOzO7wYl4Syr/0f9ziTOrM/wBhi/ny/hiN33n9+THPtf7849T1Z5cUv+myfSv8niKJ7fqp/wAz/wCNl/seGmZ4+Pr9m+/g5/c1aaa2a3TXTwdnvelo/pOBcVGvaRqGdJdeUcleD5f7M+es9/1LzP8ASVj5wyRnGcXylHQ3TXw+rL/JMnrnyX+K7fRfa/n5OBv2WOvt5Y7/AHcb3S85Om/upfxHd6oQjLiEm0paJ+zb5e0r3X8N38DxOLyuc5Sk7bbf58PLsThtbpvbe1zW/PblvQ3nebPqJ1Oepfo7eIwZcOSpqUMidpvnf8Sl18wlmWTPrnspTTn5NrV/c9TgvWltLHxWNZ8fi/3490+r+T7nB6x+j1hz6cbcoSjGcOr0y5Lvun9Alu51Mrdkzebs+jf1u4LJHPKUo+5KtEkvd0pLTFdFS6HncVxssixqbbcI6E3zattJ+V18jr9G+seXEtLrJi5OE1arwT6fVdjX07w+F48fE4E4Rm3GUH9ma327bP6cjPO82c9T7VvrOpeub94rBNfq/Km/9eL+cY/4PJ4Wcoy1Qb1RTe3RLnfaj0+C4mUOCyuLp+1j4fwrxPPx+mMumUHK4yTjJNL52ld2XO7fuO5M5tvy/wCu71Vwp8RzWrRNwvl7Svdfw3fwPOyLLhy29UMsXdvnfjfW/kzGDa3jaa3tdN+d9N6+h7fDesmpLHxWNZsf8VVOPdNc/o+5dTqXZNi5vPXMluWPI4zP7TJLJVapOTXd7v4bmTO709wSwZnGD1QaUoN89Mltf1POWTsdObLJY59SzqytEKQlkJcxZOwI1dwA4zRrEwxzOjGyjnfC0j2Ycbjy4IYcrcJY79nkS1KnzjOK3ruvBfHxXIaYXmVvnq8/u71wcVzz46+77Rv5aPxoji80XphC9EE6b5tt3KTS5dFXRJczkjIdlJ9VevpMe36u8Vhxe1eWclrxyxpKLk1q5yflRx4uDwWtfE1H7uObf1OCTFIvR5tl9z/s8SWezo4yUNcvZqoXUV10rZN93Vvuzu9W+Lx4s8cuSdKOrZJttuLj4V18Tx2ykxvMvPpE6s69Ss6Wp09SvZ01a8nyOz0NxWOEpe1g545wcJKNalbTUlfNppHACNZLMHqy6758NhvbPcfBQksleFP3b/qDjPSbyZ45XGlFw0wvlHHVRvyXPuziTFKRXhTvPZ18bDBOTljyaE3eicZXHsnBNNedGfF8XeOGKF6INu3s5SlzlXRdEv8AJytdxWjM4+rd798+b2eF4rAuElhlOanKanagmlVbfvJvk9+5zcLHhoNylknOk3GCglGUumpuXK+ex5ljYej38+5/2Xxsnh2+ieKxwlL20XKE4OEqq1bTUle1ppMU+GxarWa4+ChJTrwp+7f9RxWCG8+dHq8Y6/SPGvNkc2qVJRjv7sYpJK/JHIhNk6hkkmC2261BsnWxJkB8wHqAGmMIm0DPGjeJRz6VpEU6JvsShopEjbRHA0DYWSIDQJGkUhNeBJLGhtCSGIDFJAIEkRKPccpESC1qQMEIT8i04bYMnV2HqIYYkg3C7LVh2ANCSBpWnyAi+yACzxmydGUDdMIxadlJExbG5CDX5YJMGK2RNDWwIcUQCsllzIQpdCbH2E7EKRMmASZaoloTByfgNJoGktCocshOol5VREh2Si0yGxLyKocSSbBMoVAYkCwAueBspGcEaKJMVUWVIlFIkENICooQC4slRKSNMpchMJIaRIahOQ2iGg04pMcmJoh9yUNjc+gkhsjrOXiJspmc0Rg1MViplIGisLE0JMk1Ja7itibJCl4gTfmAHTizSzFM01AzWgkEWNMQopEyY9Qs1aHZGsNRrQpk6xSYpINUh2CYIERapimiFIWSQg7E2JSE2ZrUgbsiQNgpA3IFEJfAjUyJblpxbkCMbZdhqxpEU34CTBskWpgHtH2+oESLxrbcgqD2KMVpNUKLYptjiyTRIqhagsWTSExWNsQaHJGakUpCrKdBJCkKVkCb+BOoX0KmwaKyZSLolxBqJbEDjZDBprXYkEiWINtEksAKhFUEokomkBYA0g1xmaN8aKVik0JI10g4CzpRCiqBCggb6DoloEixphoGoF5Oww8R6RSFkmhTTKRbjaJMkx2DQ9Owa1iGRKJsoEtEUxCSQ3t03Kuy1YxcUEVuVQqJCRLQ2yGwMPQ/zQE6fzQA2tI0xkI1xjHHqto7EthY0+ZoJSKZVgqA6NPcWkpTBMsGs1ErQUmDZplnIrDhc2ox3bvw6K/wQpMePJpdx25rlfNNNU+zBqZ81Z8Eoc0lu1zT3Taa+DX1XiibHm4hy3k73cuSW8qt7eNIybL7q+/hUmiWTqByDGod2GgUGVKRYtZkxkVNkUFagkxNGmnsRJb0I0rJKozoiqxE6QMls2aWSlyNYpcy1iwRTK0MuBaLUx0v8/2NY8PKUZSStRrU9tr2X1KaO3go/seI/lx//SI3rIpNv/v4efhxOTqKbdN12Stv5JsrBgcpKMVbk0ktt303Z3+ip+z/AGmpRepJXqdqNSmvdT+6vKTHPhlDiIqO8dUZwf3HUov5fgwvfmxTjxK4cHCZJS0RVy3VbL927u9lVMWDhZSUmqqNW3KKSvZc2up7/CSi8uLKmrz1GS8JLbL5XJQf9bPL9GJLDnbja047p1/qLrTD138flu/4ufz+NjifCy1OKSbSt1KNJVd6k6rl8zPNhcXT+FNO/Jr4nocNl0yk1iuGn34St+43H7Wz56Wmuxl6QhBaJQUlGcdWmVNxeqUWr6ra06NTq6xeZmuGjoy8FOM/ZOPv8qTT3e/TYxjBtOldK3XRWl+LS+J7vEV+lcRHbVKE4wv+NxSq/FrVH40XXVl/v6HjidTz9Z/LyFwbptOMmk3JRabSXN913VkR4VvG8irSmovfdN3Vrw2e51+hrhmhKW0YO5tqkoq9SfmrVdboPQTvNGFXGdxlF9YtN/2T80F6s39G+eZc/Xw4Z4H7q2bkk0lu93tt4s1/Q224qUHJfZUt9uaTe0uXRs09F5v2ylJpalJW9kpShJRfZJteRz8Pwc3PRp0tc3L3VGusm+SQW3TJM2FDhHKOtyhGN6bba3STfJeDRnpq0+nx5HrcNjf6MmsPtF7d7VN/Yjf7jXkeVKLTpqmnVeD5FzdtHeSQ0x6ib/P+5EpG3MpkTKbJlyAxOlgO0ANt4o0jL5GaY4kxW2xSa6kDQ4zq5zLfFScdOp6dtrdbcjFofwHBqnnbSi26V0uivnSNJcZPZ65XFVF6n7q8F4Lsc8kNJ+BZBtiseaSdqTTXJp015Nchw4iUb0zlG+dSavzrmZ6RqBrINoeeerVrlqf2tT1fPmZ5JOTuTbfVt7/UtwJaLDunjm4u4yafinT+ZMn8Q0j0dyRZc0mqcpNLo23Xz5EqVbobgCgDWs5Pccssmkm20uSb2Xki3FC0li9SU2utEu+pppFKBDWbYjRRH7MizaImzpcDOaCmMdxGml+IzDpq4R2NscScXKzSi1zq9A1BDUe5qkjUrFjKmDiaUFGmGGk0gi9IRXcijRYlE01EiEMynE3bJskyoVG1A0R1zgaMGiLKxxsoVgRTBxLjINRVRnRSY9XcUpGWsKhNFrfoTNsza1EjJ1MDLSIy3NoSOXEdKOsjj1fLojIqMjFAmIjdgYrIVqJNLE6MtbCxwVo5C1mVitiy0sWszchMGmuoTZmIkvUKxEtMjhtislIbRI7FqIkgbIq1kqRN/n8/AlczNjcrf2mwpTJixZORmqI9oAqXiBnw64qBvBAB1ns+Xr4mkeQ6AAK4EyADUVJT7DbACAiuYlQgIG0IAI/ImgAAIYgANazwKEMC1YiaM2AFqwnEnrQAZta5gsYAZrcKhgBl1f/Z",
+        "title": "Ulysses",
+        "author":"James Joyce",
+        "price": "200$"
+    }
+    ,
+    {
+        "id": 8,
+        "image": " https://m.media-amazon.com/images/I/51etPUzLUSL.jpg",
+        "title": "100 Business Secrets",
+        "author":"Vahagn Dilbaryan",
+        "price": "150$"
+    }
+    ,
+    {
+        "id": 9,
+        "image": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwn2vPFXu6e1h39RxvyzMmeVwtgQtmtNim8g&usqp=CAU",
+        "title": "Dracula",
+        "author":"Bram Stoker",
+        "price": "300$"
+    },
+    {
+        "id": 10,
+        "image": " https://cdn.shopify.com/s/files/1/0021/5210/3983/products/0064471195_368x.jpg?v=1549554958",
+        "title": "The Cronicles of Narnia",
+        "author":"Clive Staples Lewis",
+        "price": "400$"
+    }
+  ,
+    {
+        "id": 11,
+        "image": " https://m.media-amazon.com/images/I/A13msEm8XwL.jpg",
+        "title": "World of Warcraft",
+        "author":"Christie Golden",
+        "price": "400$"
+    }
+ 
+  ,
+    {
+        "id": 12,
+        "image": " https://m.media-amazon.com/images/I/41zM1Se2XDL._AC_SY1000_.jpg",
+        "title": "League of Legends",
+        "author":"Anthony Reynolds",
+        "price": "400$"
+    },
+    {
+        "id": 13,
+        "image": " https://images.ctfassets.net/usf1vwtuqyxm/3JeU4mgh9YsUa2OMAUC00Y/2c84d4738edfe75bf207b3ec237663aa/9781781100264.jpg",
+        "title": "Harry Potter and Death Hallows",
+        "author":"Joanne Rowling",
+        "price": "400$"
+    
+    },
+    {
+        "id": 14,
+        "image": " https://d3fa68hw0m2vcc.cloudfront.net/8d0/273574137.jpeg",
+        "title": "The Hobbit",
+        "author":"John Ronald Reuel Tolkien",
+        "price": "400$"
+    }
+ 
+   ,
+    {
+        "id": 15,
+        "image": " https://kbimages1-a.akamaihd.net/0a470dd9-8d59-4898-876d-f2a9add5c9ac/1200/1200/False/faust-part-one.jpg",
+        "title": "Faust",
+        "author":"Johann Wolfgang von Goethe",
+        "price": "400$"
+    }
+   ,
+    {
+        "id": 16,
+        "image": " https://images.booksense.com/images/932/908/9798570908932.jpg",
+        "title": "Mythology Collection",
+        "author":"Amy Hughes",
+        "price": "400$"
+    }
+ 
+
+
+
+  
+]

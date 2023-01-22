@@ -1,0 +1,74 @@
+.books-page{
+  
+width: 100%;
+height: 900px;
+
+  
+}
+
+.books-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.books-page-input{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;;
+    cursor: pointer;
+    border:2px solid #72BF44;;
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  text-align: center;
+    
+    
+}
+
+.books-page-input::placeholder{
+    color:black
+}
+
+.books-list{
+    display: inline-block;
+    vertical-align: top;
+    margin-top:100px;
+}
+.template{
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:100px;
+    margin-top:10px;
+
+}
+.template-image{
+    width: 150px;
+    height: 200px;
+}
+.template-image:hover{
+    scale: 1.5;
+    transition: scale 1.2s ease-in-out;
+}
+.template-title{
+    font-size: 20px;
+}
+.template-price{
+  font-size: 20px;
+}
+.template-button{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #72BF44;;;
+    background-color: white;
+    margin-top:10px;
+    /* font-size: 20px; */
+    cursor: pointer;
+}
+.template-button:hover{
+    
+        background-color: #72BF44;
+        transition: background-color 1.2s;
+    
+}

@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* position: fixed; */
-
+    /* position: fixed;  */
+    /* border: 1px solid black; */
     align-items: center;
 }
 
@@ -40,21 +40,19 @@
     margin-left:20px;
 }
 .navigation-books:hover{
-    transition: all 0.9 ease ;
     color:#72BF44;
 }
 .navigation-about{
     margin-left:20px;
 }
 .navigation-about:hover{
-    transition: all 0.9 ease ;
     color:#72BF44;
 }
 .navigation-contact{
     margin-left:20px;
 }
 .navigation-contact:hover{
-    transition: all 0.9 ease ;
+   
     color:#72BF44;
 }
 
@@ -68,9 +66,9 @@
     margin-right:20px;
 }
 .navigation-auth:hover{
-    transition: all 0.9 ease ;
+ 
     color:#72BF44;
-    ;
+
 }
 
 

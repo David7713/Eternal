@@ -10,14 +10,14 @@ import HashLoader from "react-spinners/HashLoader";
 
 import Home from './Home/Home';
 import Navbar from './Navigation-Bar/Navbar';
-
+import Books from './Books/Books';
 
 //CSS Imports//
 import './App.css';
 import './Navigation-Bar/Navbar.css'
 import './Spinner/Spinner.css'
 import './Home/Home.css'
-
+import "./Books/Books.css"
 
 function App() {
 
@@ -31,7 +31,7 @@ const [loading,setLoading] = useState(false)
   },[])
 
   return (
-    <div className="App">
+    <div className="App" >
       
       {/* Spinner */}
       {
@@ -53,6 +53,7 @@ const [loading,setLoading] = useState(false)
          <Navbar></Navbar>
          <br></br><br></br>
           <Home></Home>
+          <Books></Books>
       
 </div>
 
