@@ -1,8 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
-import data from "./Data.json"
-const Books = () => {
+import data from "./Data"
+const Books = (props) => {
   const [searchTerm,setSearchTerm] = useState("")
+const {onAdd} = props
   return (
     <div className='books-page'>
 
@@ -30,14 +31,14 @@ return value;
   )
   .map((value)=>{
     return(
-      <div className='template' onClick={()=>{
-        console.log(value.id)
-      }} key={value.id}>
+      <div className='template' 
+       key={value.id} onAdd={onAdd}> 
         <img  className='template-image' src={value.image} alt ="" />
         <h3  className='template-title' >{value.title}</h3>
         <span className='template-author'>{value.author}</span>
         <p className='template-price'>{value.price}</p>
-        <button className='template-button'>Buy Now</button>
+        <button onClick={()=>{onAdd(value)}}
+         className='template-button'>Buy Now</button>
         </div>
     )
   })

@@ -47,10 +47,7 @@ height: 900px;
     width: 150px;
     height: 200px;
 }
-.template-image:hover{
-    scale: 1.5;
-    transition: scale 1.2s ease-in-out;
-}
+
 .template-title{
     font-size: 20px;
 }

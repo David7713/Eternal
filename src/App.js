@@ -11,7 +11,7 @@ import HashLoader from "react-spinners/HashLoader";
 import Home from './Home/Home';
 import Navbar from './Navigation-Bar/Navbar';
 import Books from './Books/Books';
-
+import Basket from "./Basket/Basket"
 //CSS Imports//
 import './App.css';
 import './Navigation-Bar/Navbar.css'
@@ -19,10 +19,23 @@ import './Spinner/Spinner.css'
 import './Home/Home.css'
 import "./Books/Books.css"
 
-function App() {
 
+function App( showCart) {
 
-const [loading,setLoading] = useState(false)
+  const [basketItems,setBasketItems] = useState([])
+   const [loading,setLoading] = useState(false)
+
+   const onAdd = (value)=>{
+    const exist = basketItems.find(x=>x.id===value.id);
+    if(exist) {
+      setBasketItems(basketItems.map(x=>x.id === value.id ? {...exist,qty:exist.qty +1}:x
+        ));
+        
+    }
+    else{
+      setBasketItems([...basketItems,{...value,qty:1}])
+    }
+   }
   useEffect(()=>{
     setLoading(true)
     setTimeout(()=>{
@@ -52,9 +65,12 @@ const [loading,setLoading] = useState(false)
 
          <Navbar></Navbar>
          <br></br><br></br>
+         
           <Home></Home>
-          <Books></Books>
-      
+
+          <Books onAdd={onAdd} basketItems={basketItems}></Books>
+          <Basket onAdd={onAdd} basketItems={basketItems}></Basket>
+    
 </div>
 
       }
