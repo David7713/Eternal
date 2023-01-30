@@ -1,0 +1,83 @@
+.bestsellers-page{
+    width: 100%;
+    height: 700px;
+   
+    margin-top:750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+
+.sale-banner{
+    width: 900px;
+    height: 250px;
+  
+    background-image: url("C:/Users/HDcomputers/Desktop/Eternal/eternal/src/Images/Banner for DIscount.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+    
+}
+.swiper-main{
+    width: 750px;
+    height: 220px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.discount-image{
+    width: 100px;
+    height: 100px;
+}
+.discount-title{
+    font-size: 10px;
+}
+.discount-author{
+    font-size: 10px;
+  
+}
+.discount-oldprice{
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration-line: line-through;
+}
+.discount-price{
+    font-size: 13px;
+    font-weight: 900;
+   
+}
+.discount-button{
+    width: 100px;
+    height: 20px;
+    border: 1px solid #72BF44;;;
+    background-color: white;
+    cursor: pointer;
+   
+}
+
+.swiper-pagination-bullet {
+    background-color: black !important;
+ }
+
+  .swiper-button-next { color: black; 
+
+
+
+
+}
+  .swiper-button-prev { color: black; 
+font-size: 40px;;}
+
+
+
+
+  .discount-button:hover{
+    
+    background-color: #72BF44;
+    transition: background-color 1.2s;
+
+}
+
+

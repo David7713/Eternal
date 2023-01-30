@@ -12,13 +12,16 @@ import Home from './Home/Home';
 import Navbar from './Navigation-Bar/Navbar';
 import Books from './Books/Books';
 import Basket from "./Basket/Basket"
+import Bestsellers from './Discount/Discount';
+
+
 //CSS Imports//
 import './App.css';
 import './Navigation-Bar/Navbar.css'
 import './Spinner/Spinner.css'
 import './Home/Home.css'
 import "./Books/Books.css"
-
+import "./Discount/Discount.css"
 
 function App( showCart) {
 
@@ -69,8 +72,9 @@ function App( showCart) {
           <Home></Home>
 
           <Books onAdd={onAdd} basketItems={basketItems}></Books>
-          <Basket onAdd={onAdd} basketItems={basketItems}></Basket>
-    
+          {/* <Basket onAdd={onAdd} basketItems={basketItems}></Basket> */}
+          
+        <Bestsellers></Bestsellers>
 </div>
 
       }

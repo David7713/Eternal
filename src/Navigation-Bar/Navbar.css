@@ -4,17 +4,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* position: fixed;  */
+    position: fixed; 
     /* border: 1px solid black; */
     align-items: center;
+    background-color: white;
 }
 
 
 .navigation-logo{
-    width: 200px;
+    width: 140px;
     height:120px;
-    text-align: center;
-    background-image: url("C:/Users/HDcomputers/Desktop/Eternal/eternal/src/Images/eternal-logo.jpg");
+    
+    background-image: url("C:/Users/HDcomputers/Desktop/Eternal/eternal/src/Images/Eternal Logo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,6 +91,7 @@ a{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        position: fixed;
     }
    }
 
@@ -97,6 +99,7 @@ a{
    @media only screen and (max-width: 640px) {
     .navigation-pages{
         display: none;
+        
     }
    }
 
@@ -113,6 +116,7 @@ a{
     .navigation-user{
         margin-right: 30px;;
         font-size: 16px;;
+        
     }
    }
   

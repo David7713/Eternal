@@ -62,11 +62,11 @@ justify-content: space-between;
 }
 .green-book{
     width: 130px;
-    height: 130px;
+    height: 170px;
     /* background:radial-gradient(circle,#935f2a 60% #54370c 75%); */
-    background-color: #72BF44;
+
     position: absolute;
-    /* background-image: url("C:/Users/HDcomputers/Desktop/Eternal/eternal/src/Images/green-book.jpg"); */
+    background-image: url("C:/Users/HDcomputers/Desktop/Eternal/eternal/src/Images/Rotateing-book.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: -4px 2px 56px #72BF44;
