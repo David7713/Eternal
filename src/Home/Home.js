@@ -9,7 +9,7 @@ const Home = () => {
 
    <a href='#'>   <button className='home-page-learn-more-button'>Learn More</button></a>
         </div>
-        <div className='home-page-animation' >
+        {/* <div className='home-page-animation' >
 
 
         <div className='book-brain'> </div>
@@ -19,7 +19,7 @@ const Home = () => {
 
             
 
-        </div>
+        </div> */}
     </div>
   )
 }

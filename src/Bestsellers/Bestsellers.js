@@ -4,24 +4,23 @@ import {FreeMode} from "swiper";
 import "swiper/css";
 import 'swiper/css/free-mode';
 import "swiper/css/navigation";
-import data from "./DiscountData"
+import data from "./BestsellersData"
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
+
 const Bestsellers = () => {
-   
- 
-    
- 
-
   return (
-    
-    <div className='discount-page'>
-
-        <div className='sale-banner'></div>
+    <div className='bestsellers-page'>
 
 
-        <Swiper
+
+
+<div className='bestsellers-banner'></div>
+      <p className='bestsellers-page-text'>Bestsellers of the Week</p>
+
+
+      <Swiper
         className='swiper-main'
         freeMode={true}
         grapCursor={true}
@@ -45,52 +44,19 @@ const Bestsellers = () => {
             <SwiperSlide key={item.id}>
               <img className='book-image' src={item.image}></img>
                 <p className='book-title'>{item.title}</p>
-                <p className='book-author'>{item.author}</p>
-                <p className='book-oldprice'>{item.oldprice}</p>
+                <p className='book-author'>{item.author}</p> 
                 <p className='book-price'>{item.price}</p>
-                <button className='book-button'>Buy Now</button>
+                <button className='book-button' onClick={()=>{
+                  console.log(item)
+                }}>Buy Now</button>
             </SwiperSlide>
         )
 
 
         )
        }
-       
-   
-{/* <SwiperSlide className='swiper-parts'>
-     
-     <h1>20</h1>
 
-        </SwiperSlide>
-<SwiperSlide className='swiper-parts'>
-     <h1>21</h1>
-        </SwiperSlide>
-<SwiperSlide className='swiper-parts'>
-     <h1>31</h1>
-
-        </SwiperSlide>
-<SwiperSlide className='swiper-parts'>
-     <h1>11</h1>
-
-        </SwiperSlide>
-<SwiperSlide className='swiper-parts'>
-     <h1>22</h1>
-
-        </SwiperSlide>
-<SwiperSlide className='swiper-parts'>
-     <h1>10</h1>
-
-        </SwiperSlide>
-<SwiperSlide className='swiper-parts'>
-     <h1>1</h1>
-
-        </SwiperSlide> */}
-
-
-     
-        </Swiper>
-        
-
+</Swiper>
     </div>
   )
 }

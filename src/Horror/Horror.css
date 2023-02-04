@@ -1,0 +1,24 @@
+.horror-page{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.horror-banner{
+    width: 900px;
+    height: 200px;
+    background-color: red;
+    /* background-image: url("C:/Users/HDcomputers/Desktop/Eternal/eternal/src/Images/Horror-Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.horror-page-text{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:40px;
+}
+

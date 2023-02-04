@@ -12,9 +12,10 @@ import Home from './Home/Home';
 import Navbar from './Navigation-Bar/Navbar';
 import Books from './Books/Books';
 import Basket from "./Basket/Basket"
-import Bestsellers from './Discount/Discount';
-
-
+import Bestsellers from './Bestsellers/Bestsellers';
+import Discount from "./Discount/Discount"
+import DropdownBooksCategories from './DropDownBooksCategories/DropdownBooksCategories';
+import Horror from './Horror/Horror';
 //CSS Imports//
 import './App.css';
 import './Navigation-Bar/Navbar.css'
@@ -22,6 +23,11 @@ import './Spinner/Spinner.css'
 import './Home/Home.css'
 import "./Books/Books.css"
 import "./Discount/Discount.css"
+import './Bestsellers/Bestsellers.css'
+import './DropDownBooksCategories/DropdownBooksCategories.css'
+import './Horror/Horror.css'
+
+
 
 function App( showCart) {
 
@@ -67,14 +73,17 @@ function App( showCart) {
         <div className='main-page'> 
 
          <Navbar></Navbar>
+       
+         {/* <DropdownBooksCategories></DropdownBooksCategories> */}
          <br></br><br></br>
          
           <Home></Home>
 
-          <Books onAdd={onAdd} basketItems={basketItems}></Books>
+          {/* <Books onAdd={onAdd} basketItems={basketItems}></Books> */}
           {/* <Basket onAdd={onAdd} basketItems={basketItems}></Basket> */}
-          
+          <Discount></Discount>
         <Bestsellers></Bestsellers>
+        <Horror></Horror>
 </div>
 
       }
